@@ -3,11 +3,11 @@
     <b-form class="row">
       <b-form-group class="col-4">
         <label for>Valor</label>
-        <b-form-input v-model="valor" autofocus/>
+        <b-form-input v-model="valor" type="number" autofocus/>
       </b-form-group>
       <b-form-group class="col-4">
         <label for>Margem (%)</label>
-        <b-input v-model="margem"/>
+        <b-input v-model="margem" type="number"/>
       </b-form-group>
       <b-form-group class="col-4">
         <label for>Valor Total</label>
