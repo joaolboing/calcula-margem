@@ -3,7 +3,7 @@
     <b-form class="row">
       <b-form-group class="col-4">
         <label for>Valor</label>
-        <b-form-input v-model="valor"/>
+        <b-form-input v-model="valor" autofocus/>
       </b-form-group>
       <b-form-group class="col-4">
         <label for>Margem (%)</label>
@@ -22,7 +22,7 @@ export default {
   name: "HelloWorld",
   data() {
     return {
-      valor: 0,
+      valor: null,
       margem: 0.77
     };
   },
